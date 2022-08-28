@@ -20,7 +20,7 @@ jobs:
         repository: prof4sure/SimplDev
     - name: Build the Docker image
       run: |
-        cd /home/runner/work/SimplDev 
+        
         ls -a 
         docker build . 
         
