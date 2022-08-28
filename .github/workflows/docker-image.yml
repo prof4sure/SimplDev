@@ -16,5 +16,7 @@ jobs:
    
     - name: Build the Docker image
       run: |
-        pwd 
-        ls 
+        cd /home/runner/work/SimplDev 
+        ls -a 
+        docker build . 
+        
